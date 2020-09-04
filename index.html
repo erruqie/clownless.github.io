@@ -13,6 +13,28 @@
 
 </head>
 <body>
+	<div class="preloader">
+		<div class="preloader__row">
+		  	<div class="preloader__item"></div>
+		  	<div class="preloader__item"></div>
+		</div>
+	</div>
+
+	<script>
+		window.onload = function () {
+			document.body.classList.add('loaded');
+		}
+	</script>
+
+	<script>
+		window.onload = function () {
+		document.body.classList.add('loaded_hiding');
+		window.setTimeout(function () {
+			document.body.classList.add('loaded');
+			document.body.classList.remove('loaded_hiding');
+		}, 500);
+		}
+	</script>
 	<section class="hero col-md-12">
 		<div class="hero-inner">
 			<h1> m4x3r. </h1>
@@ -21,18 +43,17 @@
 			<br>
 			<audio src="assets/mp3/play.mp3" loop autoplay preload="auto">
 			<script>
-				document.currentScript.parentElement.volume = 0.15;
+				document.currentScript.parentElement.volume = 0.2;
 			</script>
 			</audio>
 			<br>
 			<br>
-		  	<a href="https://vk.com/m4x3r228"><i style="color:white; text-shadow: 0 0 5px #000;" class="fab fa-vk fa-2x"></i></a>
-		  	<a href="tg://resolve?domain=m4x3r1337"><i style="color:white; text-shadow: 0 0 5px #000;" class="fab fa-telegram-plane fa-2x"></i></a>
-		  	<a href="https://github.com/m4x3r1337"><i style="color:white; text-shadow: 0 0 5px #000;" class="fab fa-github fa-2x"></i></a>
+		  	<a href="https://vk.com/m4x3r228"><i style="color:white; text-shadow: 0 0 5px #000;" class="fab fa-vk fa-lg"	></i></a>
+		  	<a href="tg://resolve?domain=m4x3r1337"><i style="color:white; text-shadow: 0 0 5px #000;" class="fab fa-telegram-plane fa-lg"></i></a>
+		  	<a href="https://github.com/m4x3r1337"><i style="color:white; text-shadow: 0 0 5px #000;" class="fab fa-github fa-lg"></i></a>
 			<br>
 		  </div>
-	</section>
-	
+	</section>	
 </body>
 </html>
 
