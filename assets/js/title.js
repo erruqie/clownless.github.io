@@ -1,4 +1,4 @@
-var text = ["$", " $", "r $", "3r $", "x3r $", "4x3r $", "m4x3r $", "m4x3 $", "m4x $","m4 $","m $"," $"];
+var text = ["$", " $", "w $", "nw $", "inw $", "linw $", "1linw $", "s1linw $", "s1lin $","s1li $","s1l $","s1 $","s $"," $"];
 var counter = 0;
 var inst = setInterval(change, 300);
 
