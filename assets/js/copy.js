@@ -1,6 +1,6 @@
 function copyds()
 {
-    navigator.clipboard.writeText('clownless#8160')
+    navigator.clipboard.writeText('clownl3ss#2328')
   .then(() => {
     alert("Copied to clipboard!")
   })
