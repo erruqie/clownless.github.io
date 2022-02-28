@@ -46,12 +46,10 @@
 			<br>
 			<audio src="assets/mp3/play.mp3" loop autoplay preload="auto">
 			<script>
-				document.currentScript.parentElement.volume = 0.2;
-				var first = true;
-				document.onclick = function(){
-				  if(first == true) audio.play()
-				  first = false;
+				window.onload = function () {
+					audio.play()
 				}
+				document.currentScript.parentElement.volume = 0.2;
 			</script>
 			</audio>
 			<br>
